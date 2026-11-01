@@ -1,3 +1,8 @@
+Fixes a bug i encountered on Debian with Plasma 6.3 where the pairing wizard fails most pairing attempts. 
+
+To use clone this repo and build by running install-patched.sh (it also installs the new binary)
+No guarantees on anything!
+
 BlueDevil runtime dependencies:
     -bluez5
         -General Bluetooth management
