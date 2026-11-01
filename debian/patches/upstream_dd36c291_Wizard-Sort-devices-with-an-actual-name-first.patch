@@ -1,0 +1,43 @@
+From dd36c29157a947e5be23bea2c6fa5ab59d670a0c Mon Sep 17 00:00:00 2001
+From: Albert Astals Cid <aacid@kde.org>
+Date: Tue, 27 May 2025 14:55:52 +0000
+Subject: [PATCH] Wizard: Sort devices with an actual name first
+
+---
+ src/wizard/pages/discover.cpp | 20 ++++++++++++++++++--
+ 1 file changed, 18 insertions(+), 2 deletions(-)
+
+diff --git a/src/wizard/pages/discover.cpp b/src/wizard/pages/discover.cpp
+index c0220dac1..4c8fc9043 100644
+--- a/src/wizard/pages/discover.cpp
++++ b/src/wizard/pages/discover.cpp
+@@ -70,8 +70,24 @@ QVariant DevicesProxyModel::data(const QModelIndex &index, int role) const
+ 
+ bool DevicesProxyModel::lessThan(const QModelIndex &left, const QModelIndex &right) const
+ {
+-    qint16 leftRssi = left.data(BluezQt::DevicesModel::RssiRole).toInt();
+-    qint16 rightRssi = right.data(BluezQt::DevicesModel::RssiRole).toInt();
++    auto displayRoleIsAddress = [](const QModelIndex &idx) -> bool {
++        return idx.data(Qt::DisplayRole).toString() == idx.data(BluezQt::DevicesModel::AddressRole).toString().replace(':', '-');
++    };
++
++    const bool leftIsAddress = displayRoleIsAddress(left);
++    const bool rightIsAddress = displayRoleIsAddress(right);
++
++    // Sort devices whose name is not just the address first
++    if (leftIsAddress && !rightIsAddress) {
++        return true;
++    }
++    if (!leftIsAddress && rightIsAddress) {
++        return false;
++    }
++
++    // then sort them by signal power
++    const qint16 leftRssi = left.data(BluezQt::DevicesModel::RssiRole).toInt();
++    const qint16 rightRssi = right.data(BluezQt::DevicesModel::RssiRole).toInt();
+ 
+     return leftRssi < rightRssi;
+ }
+-- 
+GitLab
+

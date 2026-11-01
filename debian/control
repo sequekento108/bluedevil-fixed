@@ -1,0 +1,66 @@
+Source: bluedevil
+Section: net
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Patrick Franz <deltaone@debian.org>,
+           Scarlett Moore <sgmoore@kde.org>,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-kf6,
+               dh-sequence-pkgkde-symbolshelper,
+               cmake (>= 3.16~),
+               extra-cmake-modules (>= 6.10.0~),
+               gettext,
+               libkf6bluezqt-dev (>= 6.10.0~),
+               libkf6coreaddons-dev (>= 6.10.0~),
+               libkf6dbusaddons-dev (>= 6.10.0~),
+               libkf6doctools-dev (>= 6.10.0~),
+               libkf6i18n-dev (>= 6.10.0~),
+               libkf6jobwidgets-dev (>= 6.10.0~),
+               libkf6kcmutils-dev (>= 6.10.0~),
+               libkf6kio-dev (>= 6.10.0~),
+               libkf6notifications-dev (>= 6.10.0~),
+               libkf6service-dev (>= 6.10.0~),
+               libkf6svg-dev (>= 6.10.0~),
+               libkf6widgetsaddons-dev (>= 6.10.0~),
+               libkf6windowsystem-dev (>= 6.10.0~),
+               libplasma-dev (>= 6.3.4~),
+               qt6-base-dev (>= 6.7.0~),
+               qt6-declarative-dev (>= 6.7.0~),
+               qt6-declarative-private-dev,
+               shared-mime-info,
+Standards-Version: 4.7.2
+Homepage: https://invent.kde.org/plasma/bluedevil
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/bluedevil.git
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/bluedevil
+Rules-Requires-Root: no
+
+Package: bluedevil
+Architecture: linux-any
+Depends: bluez (>= 5),
+         bluez-obexd,
+         plasma-desktoptheme,
+         qml6-module-org-kde-bluezqt,
+         qml6-module-org-kde-kcmutils,
+         qml6-module-org-kde-kirigami,
+         qml6-module-org-kde-kquickcontrolsaddons,
+         qml6-module-org-kde-ksvg,
+         qml6-module-qtquick,
+         qml6-module-qtquick-controls,
+         qml6-module-qtquick-dialogs,
+         qml6-module-qtquick-layouts,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libspa-0.2-bluetooth | pulseaudio-module-bluetooth, systemsettings,
+Description: KDE Bluetooth stack
+ BlueDevil is a set of components which integrate Bluetooth in KDE.
+ It contains:
+  * A KDE Control Module (KCM) to configure all the Bluetooth-related options.
+  * Integration with the KDE input/output system (KIO), which allows you to
+    discover and explore Bluetooth devices from your favorite file browser.
+  * A wizard to pair your devices and connect directly to services they offer,
+    such as input (mouse, keyboard, Wiimote) and audio (headsets, phones).
+  * A system tray application from where all BlueDevil actions can be done
+    (disconnect devices, send files, configure, etc).
+  * A daemon which listens to incoming requests, for example to receive files
+    or to introduce a requested PIN.

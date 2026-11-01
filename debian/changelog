@@ -1,0 +1,1041 @@
+bluedevil (4:6.3.4-2) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Backport upstream commits:
+    - Wizard: Sort devices with an actual name first.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 03 Jun 2025 10:43:54 +0200
+
+bluedevil (4:6.3.4-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.3.4).
+  * Bump Standards-Version to 4.7.2 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 03 Apr 2025 01:02:48 +0200
+
+bluedevil (4:6.3.2-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.3.1).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (6.3.2).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 28 Feb 2025 00:53:37 +0100
+
+bluedevil (4:6.3.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.3.0).
+  * Update build-deps and deps with the info from cmake.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 10 Feb 2025 15:00:07 +0100
+
+bluedevil (4:6.2.91-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.2.91).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 23 Jan 2025 23:53:29 +0100
+
+bluedevil (4:6.2.90-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.2.90).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 11 Jan 2025 22:58:16 +0100
+
+bluedevil (4:6.2.5-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.2.5).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 05 Jan 2025 11:22:55 +0100
+
+bluedevil (4:6.2.4-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.2.4).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 03 Dec 2024 16:37:16 +0100
+
+bluedevil (4:6.2.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.2.3).
+  * Update build-deps and deps with the info from cmake.
+  * Add build dependency to qt6-declarative-private-dev required since
+    cmake 3.31.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 23 Nov 2024 21:57:33 +0100
+
+bluedevil (4:6.2.1-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.2.1).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 15 Oct 2024 18:23:05 +0200
+
+bluedevil (4:6.2.0-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.1.90).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (6.2.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 05 Oct 2024 23:17:48 +0200
+
+bluedevil (4:6.1.5-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.1.5).
+  * Update build-deps and deps with the info from cmake.
+  * Switch to bluetooth audio provided by Pipewire by default.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 11 Sep 2024 23:55:58 +0200
+
+bluedevil (4:6.1.4-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.1.4).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 11 Aug 2024 23:58:24 +0200
+
+bluedevil (4:6.1.3-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.1.3).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 21 Jul 2024 23:46:19 +0200
+
+bluedevil (4:6.1.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.1.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 29 Jun 2024 11:24:24 +0200
+
+bluedevil (4:5.27.11-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Bump Standards-Version to 4.7.0 (No changes needed).
+  * New upstream release (5.27.11).
+  * Remove inactive uploaders, thanks for your work.
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 19 May 2024 12:17:58 +0200
+
+bluedevil (4:5.27.10-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.27.10).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 11 Jan 2024 23:17:18 +0100
+
+bluedevil (4:5.27.9-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.27.9).
+
+ -- Patrick Franz <deltaone@debian.org>  Fri, 27 Oct 2023 21:50:58 +0200
+
+bluedevil (4:5.27.8-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.27.8).
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 13 Sep 2023 20:49:21 +0200
+
+bluedevil (4:5.27.7-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.27.7).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 03 Aug 2023 18:49:28 +0200
+
+bluedevil (4:5.27.5-2) unstable; urgency=medium
+
+  [ Debian Qt/KDE Maintainers ]
+  * Release to unstable.
+
+  [ Aurélien COUDERC ]
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 27 May 2023 18:23:39 +0200
+
+bluedevil (4:5.27.5-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.27.5).
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 09 May 2023 23:26:28 +0200
+
+bluedevil (4:5.27.3-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.27.3).
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 22 Mar 2023 23:16:06 +0100
+
+bluedevil (4:5.27.2-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.27.1).
+  * Added myself to the uploaders.
+  * New upstream release (5.27.2).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 28 Feb 2023 14:58:37 +0100
+
+bluedevil (4:5.27.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.27.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 18 Feb 2023 17:08:33 +0100
+
+bluedevil (4:5.26.90-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.90).
+  * Bump Standards-Version to 4.6.2, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 23 Jan 2023 21:50:51 +0100
+
+bluedevil (4:5.26.5-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.5).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 07 Jan 2023 00:19:55 +0100
+
+bluedevil (4:5.26.4-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.4).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 29 Nov 2022 15:58:21 +0100
+
+bluedevil (4:5.26.3.1-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.26.3.1).
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 08 Nov 2022 23:02:00 +0100
+
+bluedevil (4:5.26.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.3).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 08 Nov 2022 15:41:26 +0100
+
+bluedevil (4:5.26.2-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.1).
+  * New upstream release (5.26.2).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 27 Oct 2022 23:24:37 +0200
+
+bluedevil (4:5.26.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.0).
+  * Add libspa-0.2-bluetooth as an alternate dependency to pulseaudio-
+    module-bluetooth, remove bluez-alsa.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 11 Oct 2022 15:43:57 +0200
+
+bluedevil (4:5.25.90-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.25.90).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 25 Sep 2022 00:14:19 +0200
+
+bluedevil (4:5.25.5-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.25.5).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 09 Sep 2022 23:20:11 +0200
+
+bluedevil (4:5.25.4-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.25.4).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 02 Aug 2022 17:29:55 +0200
+
+bluedevil (4:5.25.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.25.2).
+  * Drop unused build dependency on libkf5iconthemes-dev.
+  * Adapt lintian overrides.
+  * Add a Recommends on systemsettings used to invoke the bluetooth KCM.
+  * New upstream release (5.25.3).
+  * Release to unstable
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 17 Jul 2022 15:25:45 +0200
+
+bluedevil (4:5.25.1-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.25.1).
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 21 Jun 2022 21:46:25 +0200
+
+bluedevil (4:5.25.0-1) experimental; urgency=medium
+
+  * New upstream release (5.25.0).
+  * Bump Standards-Version to 4.6.1, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 14 Jun 2022 21:25:50 +0200
+
+bluedevil (4:5.24.90-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.90).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 20 May 2022 11:24:57 +0200
+
+bluedevil (4:5.24.5-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.5).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 12 May 2022 21:38:46 +0200
+
+bluedevil (4:5.24.4-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.4).
+  * Bump pulseaudio-module-bluetooth to Recommends since it’s required for
+    bluetooth audio devices pairing to work.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 30 Mar 2022 13:42:35 +0200
+
+bluedevil (4:5.24.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.3).
+  * Added myself to the uploaders.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 10 Mar 2022 07:43:24 +0100
+
+bluedevil (4:5.24.2-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.24.2).
+  * Bump Standards-Version to 4.6.0 (no changes needed).
+  * Re-export signing key without extra signatures.
+  * Update d/copyright.
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 26 Feb 2022 21:57:20 +0100
+
+bluedevil (4:5.23.5-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.23.5).
+
+ -- Patrick Franz <deltaone@debian.org>  Fri, 07 Jan 2022 15:42:47 +0100
+
+bluedevil (4:5.23.4-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.4).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 02 Dec 2021 20:23:24 +0100
+
+bluedevil (4:5.23.3-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 10 Nov 2021 08:36:14 +0900
+
+bluedevil (4:5.23.2-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Update upstream signing-key.
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.1).
+  * New upstream release (5.23.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Nov 2021 22:21:01 +0900
+
+bluedevil (4:5.23.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.0).
+  * Removed George Kiagiadakis, Mark Purcell, Modestas Vainius from the
+    uploaders, thanks for your work on the package!
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 14 Oct 2021 20:13:13 +0900
+
+bluedevil (4:5.21.5-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Release to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 17 Aug 2021 03:47:40 +0200
+
+bluedevil (4:5.21.5-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.5).
+
+ -- Patrick Franz <patfra71@gmail.com>  Fri, 07 May 2021 13:53:33 +0200
+
+bluedevil (4:5.21.4-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.4).
+
+ -- Patrick Franz <patfra71@gmail.com>  Tue, 06 Apr 2021 17:45:37 +0200
+
+bluedevil (4:5.21.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Mar 2021 05:49:40 +0900
+
+bluedevil (4:5.21.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Mar 2021 05:33:48 +0900
+
+bluedevil (4:5.21.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.1).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 24 Feb 2021 14:36:38 +0900
+
+bluedevil (4:5.21.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Feb 2021 05:42:25 +0900
+
+bluedevil (4:5.20.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 06 Jan 2021 23:50:50 +0900
+
+bluedevil (4:5.20.4-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Patrick Franz ]
+  * Add kirigami runtime dependency.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 22 Dec 2020 14:00:25 +0100
+
+bluedevil (4:5.20.4-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 11:04:35 +0900
+
+bluedevil (4:5.20.4-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.20.4).
+  * Update build-deps with the info from cmake.
+
+  [ Scarlett Moore ]
+  * Remove obsolete entries from upstream metadata.
+  * Bump standards to 4.5.1; no changes needed.
+  * Add missing versions to build dependencies.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 09 Dec 2020 14:17:30 +0900
+
+bluedevil (4:5.19.5-3) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 06 Nov 2020 08:37:21 +0900
+
+bluedevil (4:5.19.5-2) experimental; urgency=medium
+
+  * Rebuild for Qt 5.15
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 02 Nov 2020 09:27:38 +0900
+
+bluedevil (4:5.19.5-1) experimental; urgency=medium
+
+  [ Scarlett Moore ]
+  * New upstream release (5.19.5).
+
+  [ Norbert Preining ]
+  * Add Patrick and myself to uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 19 Oct 2020 09:45:20 +0900
+
+bluedevil (4:5.19.4-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Scarlett Moore ]
+  * Bump compat level to 13.
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.18.5).
+  * Update build-deps and deps with the info from cmake.
+  * Add myself to Uploaders.
+  * Remove not needed injection of linker flags.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Set/Update field Upstream-Contact in debian/copyright.
+  * Update Maintainer/Uploaders in d/control.
+    - Remove maxy as requested on IRC.
+    - Replace Maintainer with Debian team.
+
+  [ Patrick Franz ]
+  * Add hardening=+all build flag.
+  * Update matching files in debian/copyright.
+  * Update data in /debian/upstream/metadata.
+  * Rename Lintian override: binary-without-manpage => no-manual-page.
+
+  [ Norbert Preining ]
+  * New upstream release (5.19.4).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 29 Aug 2020 23:14:36 +0200
+
+bluedevil (4:5.17.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * Bump Standards-Version to 4.5.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 14 Feb 2020 21:30:06 +0100
+
+bluedevil (4:5.17.5-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.16.5).
+  * Salsa CI automatic initialization by Tuco
+  * Update build-deps and deps with the info from cmake
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Update the build dependencies according to the upstream build system:
+    - bump KF packages to 5.62.0
+    - explicitly add gettext
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Bump Standards-Version to 4.4.1, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 18 Jan 2020 21:25:38 +0100
+
+bluedevil (4:5.14.5-1) unstable; urgency=medium
+
+  * New upstream release (5.14.5).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 24 Jan 2019 09:25:37 -0300
+
+bluedevil (4:5.14.3-1) unstable; urgency=medium
+
+  * Update upsteam signing-key
+  * New upstream release (5.14.3).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Nov 2018 08:50:23 -0300
+
+bluedevil (4:5.13.4-1) unstable; urgency=medium
+
+  * New upstream release (5.13.4).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:17:47 +0200
+
+bluedevil (4:5.13.1-1) unstable; urgency=medium
+
+  * New upstream release (5.13.1).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:42:44 +0200
+
+bluedevil (4:5.12.5-1) unstable; urgency=medium
+
+  * New upstream release (5.12.5).
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 May 2018 13:23:47 +0200
+
+bluedevil (4:5.12.4-1) unstable; urgency=medium
+
+  * New upstream release (5.12.4).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Mar 2018 18:12:38 +0200
+
+bluedevil (4:5.12.3-1) sid; urgency=medium
+
+  * New upstream release (5.12.2).
+  * New upstream release (5.12.3).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Mar 2018 19:14:01 +0100
+
+bluedevil (4:5.12.1-1) sid; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.12.1).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Feb 2018 22:08:34 +0100
+
+bluedevil (4:5.12.0-2) sid; urgency=medium
+
+  * New revision
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:23 +0100
+
+bluedevil (4:5.12.0-1) experimental; urgency=medium
+
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Add link options as-needed
+  * Add Bhushan Shah upstream signing key
+  * New upstream release (5.12.0).
+  * Bump Standards-Version to 4.1.3.
+  * Use https uri for uscan
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Feb 2018 15:20:22 +0100
+
+bluedevil (4:5.11.4-1) experimental; urgency=medium
+
+  * New upstream release (5.11.4).
+  * Bump to Standards-Version 4.1.2
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:48:40 -0300
+
+bluedevil (4:5.10.5-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:55:10 +0200
+
+bluedevil (4:5.10.5-1) experimental; urgency=medium
+
+  * New upstream release (5.10.3).
+  * Document how to run bluedevil in in other DEs (Closes: 781012)
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * New upstream release (5.10.4).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.10.5).
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:27:58 +0200
+
+bluedevil (4:5.8.7-1) unstable; urgency=medium
+
+  * New upstream release (5.8.7).
+    + ReceiveFileJob: Don't cancel the request right after accepting it
+
+      KNotification::closed is emitted also when one of the notification
+      actions was triggered.
+
+      KDE#376773
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 May 2017 18:35:52 +0200
+
+bluedevil (4:5.8.5-1) experimental; urgency=medium
+
+  * New upstream release (5.8.5).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Dec 2016 18:46:11 +0100
+
+bluedevil (4:5.8.4-1) unstable; urgency=medium
+
+  * New upstream release (5.8.4)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:26:59 +0100
+
+bluedevil (4:5.8.2-1) unstable; urgency=medium
+
+  * New upstream release (5.8.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:16:32 +0200
+
+bluedevil (4:5.8.1-1) unstable; urgency=medium
+
+  * New upstream release (5.8.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 22:54:14 +0200
+
+bluedevil (4:5.8.0-1) unstable; urgency=medium
+
+  * New upstream release (5.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 13:59:22 +0200
+
+bluedevil (4:5.8.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 30 Sep 2016 11:29:13 +0000
+
+bluedevil (4:5.7.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 13 Sep 2016 13:45:29 +0000
+
+bluedevil (4:5.7.4-1) unstable; urgency=medium
+
+  * New upstream release (5.7.4)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 14:44:58 +0200
+
+bluedevil (4:5.7.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 23 Aug 2016 17:28:01 +0000
+
+bluedevil (4:5.7.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 02 Aug 2016 12:04:05 +0000
+
+bluedevil (4:5.7.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Jul 2016 13:46:37 +0000
+
+bluedevil (4:5.7.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 16:06:03 +0000
+
+bluedevil (4:5.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Jul 2016 22:16:33 +0200
+
+bluedevil (4:5.7.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 04 Jul 2016 13:16:02 +0000
+
+bluedevil (4:5.6.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 10:04:45 +0200
+
+bluedevil (4:5.6.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 14 Jun 2016 14:13:47 +0000
+
+bluedevil (4:5.6.4-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.5.5).
+  * Add upstream metadata (DEP-12)
+  * New upstream release (5.6.2).
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:24:39 +0200
+
+bluedevil (4:5.6.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 May 2016 09:41:29 +0000
+
+bluedevil (4:5.6.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Apr 2016 16:53:42 +0000
+
+bluedevil (4:5.6.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Apr 2016 11:44:00 +0000
+
+bluedevil (4:5.5.4-1) experimental; urgency=medium
+
+  * New upstream release (5.5.0).
+  * New upstream release (5.5.1).
+  * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:49:06 +0100
+
+bluedevil (4:5.4.3-0ubuntu1) xenial; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream bugfix release
+
+  [ Philip Muškovac ]
+  * New upstream bugfix release (LP: #1518598)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:26:00 +0100
+
+bluedevil (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:58 +0100
+
+bluedevil (4:5.4.2-1) unstable; urgency=medium
+
+  * Drop obex-data-server dependency. (Closes: #780795) Thanks to David Rosca
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:52:14 +0200
+
+bluedevil (4:5.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add missing dependency on qml-module-org-kde-kio.
+
+ -- Felix Geyer <fgeyer@debian.org>  Mon, 14 Sep 2015 18:10:57 +0200
+
+bluedevil (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:26 +0200
+
+bluedevil (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.4.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 22:06:36 +0200
+
+bluedevil (4:5.3.2-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+  * New upstream release (5.3.2).
+
+  [ José Manuel Santamaría Lema ]
+  * Add dependency on qml-module-org-kde-bluezqt.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jul 2015 10:22:53 +0200
+
+bluedevil (4:5.2.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 15:50:24 +0100
+
+bluedevil (4:5.4.1-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:08:44 +0100
+
+bluedevil (4:5.4.0-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Add dependency on qml-module-org-kde-bluezqt.
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 31 Aug 2015 15:46:02 +0100
+
+bluedevil (4:5.1.95-0ubuntu1) wily; urgency=medium
+
+  * Upload bluez5 transitions ppa version to wily
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Thu, 13 Aug 2015 17:44:08 +0200
+
+bluedevil (2.0~rc1-44-gb7697a7-3) unstable; urgency=medium
+
+  * Team upload.
+  * Correct depends on bluez-obexd (Closes: #771116, #771293)
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 30 Nov 2014 17:52:59 -0500
+
+bluedevil (2.0~rc1-44-gb7697a7-2) unstable; urgency=medium
+
+  * Team upload to unstable
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 24 Oct 2014 19:01:19 +0200
+
+bluedevil (2.0~rc1-44-gb7697a7-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream snapshot
+    - Bump Build-Depends on libbluedevil-dev to 2.0~rc1-6-g7bb223c
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 24 Oct 2014 08:20:27 +0200
+
+bluedevil (2.0~rc1-3) unstable; urgency=medium
+
+  * Change dependencies to bluez-obexd | obexd-client. (Closes: #760924)
+    Thanks to 石頭成
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Oct 2014 22:34:49 +0200
+
+bluedevil (2.0~rc1-2) unstable; urgency=medium
+
+  * Team upload to unstable as bluez5 landed in unstable.
+
+ -- Didier Raboud <odyx@debian.org>  Mon, 14 Jul 2014 13:45:43 +0200
+
+bluedevil (2.0~rc1-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream release, introducting Bluez5 support (Closes: #710129)
+    - Bump Build-Depends against libbluedevil-dev to >= 2.0~rc1
+    - Bump Depends against bluez to >= 5
+    - Drop the patch making libbluedevilaction private as it doesn't exist in
+      2.0~rc1 anymore
+  * Bump Standards-Version to 3.9.5 without changes needed
+  * Drop 5 now-unused binary-without-manpage overrides
+
+ -- Didier Raboud <odyx@debian.org>  Thu, 15 May 2014 20:21:50 +0200
+
+bluedevil (1.3.1-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Bump libbluedevil-dev build dependency to 1.9.3.
+  * Fix Vcs-* headers.
+  * Update copyright.
+  * Bump Standards-Version to 3.9.4, no changes required.
+  * Refresh patch 01_libbluedevilaction_is_private.diff.
+  * Fix the description. (Closes: #667528)
+
+ -- Pino Toscano <pino@debian.org>  Fri, 17 May 2013 14:05:21 +0200
+
+bluedevil (1.2.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add myself to uploaders.
+  * Require libbluedevil-dev 1.9.2 for building.
+
+ -- Modestas Vainius <modax@debian.org>  Tue, 01 May 2012 16:23:49 +0300
+
+bluedevil (1.2.2-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release. (Closes: #658313)
+  * Patch 01_libbluedevilaction_is_private.diff: refresh, and add more targets.
+  * Small description fixes. (Closes: #630442)
+  * Add a watch file.
+  * Bump Standards-Version to 3.9.3, no changes required.
+  * Update lintian overrides.
+  * Bump debhelper compatibility to 9:
+    - move arguments of `dh' to pass sequence first
+    - bump debhelper build dependency to 9
+    - bump compat to 9 (this also makes use of dpkg-buildflags)
+    - switch to DEB_LDFLAGS_MAINT_APPEND to append our custom LDFLAGS
+  * Set the epoch in the version of the kdelibs5-dev build dependency
+    (otherwise lesser versions match).
+
+ -- Pino Toscano <pino@debian.org>  Tue, 03 Apr 2012 12:19:45 +0200
+
+bluedevil (1.1-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #630135)
+
+  [ Pino Toscano ]
+  * Spell correctly "Bluetooth" in descriptions. (Closes: #627258)
+
+  [ George Kiagiadakis ]
+  * Bump standards-version to 3.9.2; no changes required.
+  * Refresh patches.
+  * Update debian/copyright.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 12 Jun 2011 17:18:19 +0300
+
+bluedevil (1.0.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump build-dependency on libbluedevil-dev to version 1.8.1.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 27 Mar 2011 16:38:36 +0300
+
+bluedevil (1.0.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop the kdebluetooth transitional package.
+    This was only for squeeze.
+  * Update homepage.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Fri, 04 Mar 2011 16:34:06 +0200
+
+bluedevil (1.0~rc3-2) unstable; urgency=low
+
+  * Remove the kbluetooth transitional package upon request by the release
+    team, to unblock bluedevil's transition into squeeze.
+  * Change kdebluetooth's version to be the same as bluedevil's
+    but with epoch 1 and generated from debian/changelog automatically.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 27 Sep 2010 20:54:51 +0300
+
+bluedevil (1.0~rc3-1) unstable; urgency=low
+
+  * New upstream release candidate.
+  * Add transitional kbluetooth and kdebluetooth packages.
+  * Refresh patch 01_libbluedevilaction_is_private.diff.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 12 Sep 2010 14:12:05 +0300
+
+bluedevil (1.0~rc2-1) unstable; urgency=low
+
+  [ George Kiagiadakis ]
+  * Initial release. (Closes: #590694)
+
+ -- Mark Purcell <msp@debian.org>  Sat, 07 Aug 2010 09:04:19 +1000
